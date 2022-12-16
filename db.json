@@ -1,14 +1,160 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "products": [
+    {
+      "id": 1,
+      "product_title": "Air Jordan 1 Retro High OG",
+      "product_subTitle": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+      "size": [5, 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 152.52,
+      "colors": ["Red", "Wite", "Blue"],
+      "product_display_image": "./images/shoe1.jpg",
+      "product_addition_images": ["https://static.nike.com/a/images/t_PDP_864_v1/f_au…d0036/air-jordan-1-retro-high-og-shoes-G8hcQx.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…259c0/air-jordan-1-retro-high-og-shoes-G8hcQx.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…d1b4a/air-jordan-1-retro-high-og-shoes-G8hcQx.png"],
+      "product_tiny_image": ["https://static.nike.com/a/images/t_PDP_144_v1/f_au…d8082/air-jordan-1-retro-high-og-shoes-G8hcQx.png","https://static.nike.com/a/images/t_PDP_144_v1/f_au…e274a/air-jordan-1-retro-high-og-shoes-G8hcQx.png","https://static.nike.com/a/images/t_PDP_144_v1/f_au…5a31d/air-jordan-1-retro-high-og-shoes-G8hcQx.png"],
+      "video_url":"https://static.nike.com/a/videos/q_90,vc_vp9/e4843e32-a354-4cc2-b5ad-71c01a71ceff/video.webm"
+    },
+    {
+      "id": 2,
+      "product_title": "Nike Air Force 1 Low Retro",
+      "product_subTitle": "Got your fave colour yet? No worries. The Colour of the Month series lets you feed your need while celebrating a little-known piece of Nike history—the original Colour of the Month series, back in 1984, may have saved the Air Force 1 from extinction.",
+      "size": [7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 225,
+      "colors": [""],
+      "product_display_image": "./images/shoe2.jpg",
+      "product_addition_images": ["https://static.nike.com/a/images/t_PDP_864_v1/f_au…2cb326dc2a/air-force-1-low-retro-shoes-qR1vPt.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…48b5c00c09/air-force-1-low-retro-shoes-qR1vPt.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…4d77a7000d/air-force-1-low-retro-shoes-qR1vPt.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…bdf9da7e34/air-force-1-low-retro-shoes-qR1vPt.png"],
+      "product_tiny_image": [""],
+      "video_url": "https://static.nike.com/a/videos/q_90,vc_vp9/e4843e32-a354-4cc2-b5ad-71c01a71ceff/video.webm"
+    },
+    {
+      "id": 3,
+      "product_title": "Sustainable Materials",
+      "product_subTitle": "Looking to nature for inspiration, the Nike Air Max Terrascape 97 lets you push your style full speed ahead. Made from at least 20% recycled materials by weight, nearly every detail is thoughtfully crafted with some recycled content.",
+      "size": [ 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5],
+      "product_category": "Man's Shoes",
+      "prise": 275,
+      "colors": ["Black", "Gray"],
+      "product_display_image": "./images/shoe3.jpg",
+      "product_addition_images": ["https://static.nike.com/a/images/t_PDP_864_v1/f_au…66148faa45/air-max-terrascape-97-shoes-3cGxRv.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…a8cafd98b2/air-max-terrascape-97-shoes-3cGxRv.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…9003b96d75/air-max-terrascape-97-shoes-3cGxRv.png"],
+      "product_tiny_image": ["https://static.nike.com/a/images/t_PDP_144_v1/f_au…990301ca3c/air-max-terrascape-97-shoes-3cGxRv.png","https://static.nike.com/a/images/t_PDP_144_v1/f_au…6bf50a4d03/air-max-terrascape-97-shoes-3cGxRv.png"],
+      "video_url": "https://static.nike.com/a/videos/q_90,vc_vp9/14b1ea19-190f-40ed-a36a-1ed1d74ae8ed/video.webm"
+    },
+    {
+      "id": 4,
+      "product_title": "Nike Blazer Mid '77 Premium",
+      "product_subTitle": "Styled for the '70s. Loved in the '80s. Classic in the '90s. Ready for the future. The Nike Blazer Mid gets you ready for wintertime with a cosy collar that pairs perfectly with your favourite seasonal jumper.",
+      "size": [5, 6, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 13],
+      "product_category": "Man's Shoes",
+      "prise": 189,
+      "colors": [""],
+      "product_display_image": "./images/shoe4.jpg",
+      "product_addition_images": ["https://static.nike.com/a/images/t_PDP_864_v1/f_au…-bbf4-468706655042/blazer-mid-77-shoes-3Jpkm6.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…-a799-46d1abbadde7/blazer-mid-77-shoes-3Jpkm6.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…-b9b2-bd4596243b0a/blazer-mid-77-shoes-3Jpkm6.png"],
+      "product_tiny_image": [""],
+      "video_url": "https://static.nike.com/a/videos/q_90,vc_vp9/aad4aa00-b115-458b-8dfd-bb6964a25999/video.webm"
+    },
+    {
+      "id": 5,
+      "product_title": "Air Jordan 1 Mid SE",
+      "product_subTitle": "Get that Jordan energy on your feet this festive season. Rich grain leather with bright details make this pair shine like festive lights.",
+      "size": [8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 215,
+      "colors": ["Red", "Wite"],
+      "product_display_image": "./images/shoe5.jpg",
+      "product_addition_images": ["https://static.nike.com/a/images/t_PDP_864_v1/f_au…39a77628fd9a/air-jordan-1-mid-se-shoes-pZbfP8.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…adb8ba8d3d3d/air-jordan-1-mid-se-shoes-pZbfP8.png","https://static.nike.com/a/images/t_PDP_864_v1/f_au…4157577aafac/air-jordan-1-mid-se-shoes-pZbfP8.png"],
+      "product_tiny_image": ["https://static.nike.com/a/images/t_PDP_144_v1/f_au…b4df8eacf0d3/air-jordan-1-mid-se-shoes-pZbfP8.png","https://static.nike.com/a/images/t_PDP_144_v1/f_au…4c5b8e25187a/air-jordan-1-mid-se-shoes-pZbfP8.png"],
+      "video_url": "Video URl"
+    },
+    {
+      "id": 6,
+      "product_title": "Air Force 1 x UNDEFEATED",
+      "product_subTitle": "Cyan Blue, Teal Green and Pastel Pink come together in rich patent leather on this collab shoe. And did we mention no 2 panels are alike? The multicolour upper sits on top of a Bone White midsole, and is tied together by a translucent Gold Swoosh.",
+      "size": [ 6, 7, 8, 8.5, 9, 9.5, 10.5, 11, 11.5, 12],
+      "product_category": "Multicolor",
+      "prise": 235,
+      "colors": [""],
+      "product_display_image": "./images/shoe6.jpg",
+      "product_addition_images": ["https://static.nike.com/a/images/t_prod_ss/w_640,c…ndefeated-multicolour-dv5255-400-release-date.jpg","https://static.nike.com/a/images/t_prod_ss/w_640,c…ndefeated-multicolour-dv5255-400-release-date.jpg","https://static.nike.com/a/images/t_prod_sc/w_640,c…ndefeated-multicolour-dv5255-400-release-date.jpg"],
+      "product_tiny_image": [""],
+      "video_url": "Video URl"
+    },
+    {
+      "id": 1,
+      "product_title": "Air Jordan 1 Retro High OG",
+      "product_subTitle": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+      "size": [5, 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 152.52,
+      "colors": ["Red", "Wite", "Blue"],
+      "product_display_image": "./images/shoe1.jpg",
+      "product_addition_images": [""],
+      "product_tiny_image": [""],
+      "video_url": "Video URl"
+    },
+    {
+      "id": 1,
+      "product_title": "Air Jordan 1 Retro High OG",
+      "product_subTitle": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+      "size": [5, 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 152.52,
+      "colors": ["Red", "Wite", "Blue"],
+      "product_display_image": "./images/shoe1.jpg",
+      "product_addition_images": [""],
+      "product_tiny_image": [""],
+      "video_url": "Video URl"
+    },
+    {
+      "id": 1,
+      "product_title": "Air Jordan 1 Retro High OG",
+      "product_subTitle": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+      "size": [5, 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 152.52,
+      "colors": ["Red", "Wite", "Blue"],
+      "product_display_image": "./images/shoe1.jpg",
+      "product_addition_images": [""],
+      "product_tiny_image": [""],
+      "video_url": "Video URl"
+    },
+    {
+      "id": 1,
+      "product_title": "Air Jordan 1 Retro High OG",
+      "product_subTitle": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+      "size": [5, 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 152.52,
+      "colors": ["Red", "Wite", "Blue"],
+      "product_display_image": "./images/shoe1.jpg",
+      "product_addition_images": [""],
+      "product_tiny_image": [""],
+      "video_url": "Video URl"
+    },
+    {
+      "id": 1,
+      "product_title": "Air Jordan 1 Retro High OG",
+      "product_subTitle": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+      "size": [5, 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 152.52,
+      "colors": ["Red", "Wite", "Blue"],
+      "product_display_image": "./images/shoe1.jpg",
+      "product_addition_images": [""],
+      "product_tiny_image": [""],
+      "video_url": "Video URl"
+    },
+    {
+      "id": 1,
+      "product_title": "Air Jordan 1 Retro High OG",
+      "product_subTitle": "Familiar but always fresh, the iconic Air Jordan 1 is remastered for today's sneakerhead culture. This Retro High OG version goes all in with premium leather, comfortable cushioning and classic design details.",
+      "size": [5, 6, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+      "product_category": "Man's Shoes",
+      "prise": 152.52,
+      "colors": ["Red", "Wite", "Blue"],
+      "product_display_image": "./images/shoe1.jpg",
+      "product_addition_images": [""],
+      "product_tiny_image": [""],
+      "video_url": "Video URl"
+    }
+  ]
 }
